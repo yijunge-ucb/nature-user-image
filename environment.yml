@@ -29,7 +29,7 @@ dependencies:
 - rasterstats==0.20.0
 - leafmap[mablibregl]
 - streamlit==1.39.0
-- langchain-core==0.2.41
+- langchain-core==0.3.7
 - langchain-openai==0.2.1
 
 # other packages
