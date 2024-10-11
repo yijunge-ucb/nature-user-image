@@ -46,4 +46,4 @@ dependencies:
   - langchain-openai==0.1.25
   - nbconvert[webpdf]==7.16.4
   - git+https://github.com/eodaGmbH/py-maplibregl@feature/color-utils
-  - git+https://gitlab.nrp-nautilus.io/prp/jupyter-ai-nrp
+  - git+https://gitlab.nrp-nautilus.io/prp/jupyter-ai-nrp@9d10744ad3b9f8de9dece3fd1899f1a2d9d41a77
