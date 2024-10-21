@@ -36,6 +36,7 @@ dependencies:
 - ibis-framework[pandas,duckdb]==9.3.0
 - jupyterlab-myst==2.4.2
 - leafmap==0.36.10
+- planetary-computer==1.0.0
 - pypdf==5.0.1
 - seaborn==0.13.2
  
