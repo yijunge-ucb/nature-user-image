@@ -27,6 +27,7 @@ dependencies:
 - odc-stac==0.3.10
 - rioxarray==0.17.0
 - rasterstats==0.20.0
+- langchain-chroma==0.1.4
 - leafmap[mablibregl]
 - streamlit==1.39.0
 
