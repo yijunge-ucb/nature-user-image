@@ -8,11 +8,13 @@ playwright install chromium
 # https://github.com/berkeley-dsep-infra/datahub/issues/5827
 git config --system pull.rebase false
 
-# Install VS Code extensions.
-# This is not reproducible, and it can be difficult to version these.
-export VSCODE_EXTENSIONS=${CONDA_PREFIX}/share/code-server/extensions
+## Install VS Code extensions.
+
+# code-server's conda package assets are installed in share/code-server.
+export VSCODE_EXTENSIONS=${CONDA_DIR}/envs/notebook/share/code-server/extensions
 mkdir -p ${VSCODE_EXTENSIONS}
 
+# This is not reproducible, and it can be difficult to version these.
 for x in \
   ms-toolsai.jupyter \
   ms-python.python \
