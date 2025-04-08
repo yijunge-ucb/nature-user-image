@@ -27,7 +27,7 @@ dependencies:
 
 # spatial packages
 - pystac-client==0.8.3
-- odc-stac==0.3.10
+- odc-stac==0.4.0rc2
 - rioxarray==0.17.0
 - rasterstats==0.20.0
 - langchain-chroma==0.1.4
@@ -48,7 +48,8 @@ dependencies:
 - pypdf==5.0.1
 - seaborn==0.13.2
 - minio=7.2.15
- 
+- dask==2025.3.0
+
 # pip installed packages, conda is prefered
 - pip==24.3.1
 - pip:
