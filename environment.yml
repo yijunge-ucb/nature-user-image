@@ -21,6 +21,9 @@ dependencies:
 # r2d installs jupyter-rsession-proxy, but in the base python env, not in the updated one
 - jupyter-rsession-proxy==2.3.0
 
+# jupytergis -- always latest, it's experimental
+- jupytergis
+
 # vscode
 - code-server==4.96.2
 - jupyter-vscode-proxy==0.6
